@@ -123,6 +123,7 @@ class Server {
 
         socket.isPresenter = false;
         socket.leave(room);
+        this.io.emit('rooms', this.rooms);
         this.sendRoomUsers(room);
     }
 
@@ -151,7 +152,6 @@ class Server {
 
     subscribeToDrawing(socket) {
         socket.on('drawing', (room, data) => this.io.to(room).emit('draw', data));
-
         socket.on('clearBoard', (room) => this.io.to(room).emit('clear'));
     }
 
