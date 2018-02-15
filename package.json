@@ -1,0 +1,31 @@
+{
+  "name": "crocodile-game-server-final-project",
+  "version": "1.0.0",
+  "description": "server app for a final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "max",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-fetch": "^2.0.0",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-google": "^0.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kulikmaxim/crocodile-game-server-final-project.git"
+  },
+  "keywords": [
+    "crocodile"
+  ],
+  "bugs": {
+    "url": "https://github.com/kulikmaxim/crocodile-game-server-final-project/issues"
+  },
+  "homepage": "https://github.com/kulikmaxim/crocodile-game-server-final-project#readme"
+}
