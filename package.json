@@ -4,7 +4,8 @@
   "description": "server app for a final project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "max",
   "license": "ISC",
@@ -16,6 +17,9 @@
   "devDependencies": {
     "eslint": "^4.17.0",
     "eslint-config-google": "^0.9.1"
+  },
+  "engines": {
+    "node": "6.11.2"
   },
   "repository": {
     "type": "git",
