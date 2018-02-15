@@ -151,8 +151,8 @@ class Server {
     }
 
     subscribeToDrawing(socket) {
-        socket.on('drawing', (room, data) => this.io.to(room).emit('draw', data));
-        socket.on('clearBoard', (room) => this.io.to(room).emit('clear'));
+        socket.on('drawing', (room, data) => socket.broadcast.to(room).emit('draw', data));
+        socket.on('clearBoard', (room) => socket.broadcast.to(room).emit('clear'));
     }
 
     subscribeToStartRound(socket) {
