@@ -223,7 +223,7 @@ class Server {
     }
 
     subscribeToListenPort() {
-        this.http.listen(4001, () => console.log('listening on *:4001'));
+        this.http.listen(process.env.PORT || 4001, () => console.log('listening on *:4001'));
     }
 
     getRoom(game) {
