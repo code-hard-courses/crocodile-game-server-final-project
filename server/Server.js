@@ -121,7 +121,7 @@ class Server {
             }
         }
 
-        socket.isPresenter = false;
+        this.resetUser(socket);
         socket.leave(room);
         this.io.emit('rooms', this.rooms);
         this.sendRoomUsers(room);
@@ -241,6 +241,11 @@ class Server {
             isPresenter: socket.isPresenter,
             points: socket.points,
         };
+    }
+
+    resetUser(socket) {
+        socket.isPresenter = false;
+        socket.points = 0;
     }
 
     getUserRoom(socket) {
