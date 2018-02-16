@@ -1,6 +1,5 @@
 # Crocodile (charades) game - server side
-
-# Graduation project at HTP (it-academy). Crocodile (charades) game - server side
+Graduation project at HTP (it-academy). Crocodile (charades) game - server side
 
 # How to setup
 
@@ -50,7 +49,6 @@ heroku open
 - [Wordnik](http://developer.wordnik.com/) - word generator API
 
 # App info
--------------
 
-[Presentation](https://sss)
-[Hosting](https://tranquil-wave-78594.herokuapp.com/)
+- [Presentation](https://sss)
+- [Hosting](https://tranquil-wave-78594.herokuapp.com/)
