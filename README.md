@@ -45,7 +45,7 @@ heroku open
 
 # Technologies and tools
 
-- Node.js
+- [Node.js](https://nodejs.org/en/)
 - [Socket.IO](https://socket.io/) - real-time bidirectional event-based communication
 - [Wordnik](http://developer.wordnik.com/) - word generator API
 
@@ -53,5 +53,4 @@ heroku open
 -------------
 
 [Presentation](https://sss)
-
 [Hosting](https://tranquil-wave-78594.herokuapp.com/)
