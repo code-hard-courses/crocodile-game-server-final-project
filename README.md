@@ -1,4 +1,5 @@
-# crocodile-game-server-final-project
+# Crocodile (charades) game - server side
+
 # Graduation project at HTP (it-academy). Crocodile (charades) game - server side
 
 # How to setup
