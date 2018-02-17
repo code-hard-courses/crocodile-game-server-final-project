@@ -50,5 +50,5 @@ heroku open
 
 # App info
 
-- [Presentation](https://sss)
+- [Presentation](http://slides.com/kulikmaxim/deck)
 - [Hosting](https://tranquil-wave-78594.herokuapp.com/)
